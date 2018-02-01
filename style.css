@@ -1,0 +1,128 @@
+@keyframes colorExample{
+  from {background-color: red;}
+  to {background-color: purple;}
+}
+
+#redBox{
+  background-color: red;
+  animation-name: colorExample;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  /*alternate - The animation is played forwards first, then backwards*/
+}
+
+
+/* @keyframes pulse {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.75);
+        opacity: 0.25;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#blueBox{
+  background-color: blue;
+  animation-name: pulse;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-delay: 5s;
+}
+
+@keyframes displaceContent {
+    from { transform : translateY(0em) }
+    to   { transform : translateY(3em) }
+}
+
+#greenBox{
+  background-color: green;
+  animation-name: displaceContent;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotateImage{
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+#yellowBox{
+  background-color: yellow;
+  animation-name: rotateImage;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  animation-direction: normal;
+}
+
+@keyframes cartwheel{
+  from { -webkit-transform: translateX(10px) rotate(36deg); }
+  20% { -webkit-transform: translateX(20px) rotate(72deg); }
+  30% { -webkit-transform: translateX(30px) rotate(108deg); }
+  40% { -webkit-transform: translateX(40px) rotate(144deg); }
+  50% { -webkit-transform: translateX(50px) rotate(180deg); }
+  60% { -webkit-transform: translateX(60px) rotate(216deg); }
+  70% { -webkit-transform: translateX(70px) rotate(252deg); }
+  80% { -webkit-transform: translateX(80px) rotate(288deg); }
+  90% { -webkit-transform: translateX(90px) rotate(324deg); }
+  to { -webkit-transform: translateX(100px) rotate(360deg); }
+}
+
+@keyframes fade {
+  from {background-color: white;}
+  90% {background-color:white;}
+  to {background-color: #080808;}
+}
+
+#stick{
+height: 100px;
+animation-name: cartwheel;
+animation-duration: 5s;
+animation-iteration-count: 1;
+float: center;
+padding: 50px;
+vertical-align: middle;
+}
+
+#flipBook{
+  background-color: white;
+  top: 160px;
+  left:0px;
+  position: absolute;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  width: 800px;
+  height: 300px;
+  font-size: 40px;
+}
+
+#leftSide{
+  background-color: white;
+  top: 0px;
+  left:500px;
+  position: absolute;
+  border: 1px;
+  border-color: black;
+  border-style: dotted;
+  width: 300px;
+  height: 300px;
+  animation-name: fade;
+  animation-duration: .5s;
+  animation-iteration-count: 10;
+} */
+
+.box{
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  float: left;
+}
